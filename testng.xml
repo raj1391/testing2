@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FBTestSuite">
+  <test thread-count="1" name="FunctionalTestSuite">
+    <classes>
+      <class name="test.FbTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

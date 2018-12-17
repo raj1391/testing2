@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FBTestSuite]">
+  <test name="FunctionalTestSuite(failed)">
+    <classes>
+      <class name="test.FbTest">
+        <methods>
+          <include name="testing"/>
+          <include name="PreSetup"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- test.FbTest -->
+    </classes>
+  </test> <!-- FunctionalTestSuite(failed) -->
+</suite> <!-- Failed suite [FBTestSuite] -->
